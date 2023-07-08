@@ -58,6 +58,12 @@
     --section-body-padding: 2rem 0 4rem;
     --section-footer-padding: 3rem 0 0;
     --section-footer-align: center;
+    .section-services{}
+    .section-works{}
+    .section-about-us{}
+    .section-latest-news{}
+    .section-testimonial{}
+    .section-contact{}
   
     /** HEADER **/
     --header-padding: 4rem 0 0;
@@ -369,16 +375,6 @@
   .section-hero .section-inner {
     padding: 10rem 40rem 2rem 0;
   }
-  .section-about-us{
-
-  }
-  .section-latest-news{
-
-  }
-  .section-contact{
-    
-  }
-
   
   /*** 4. CARD ***/
   
@@ -453,10 +449,6 @@
   .card-work:hover .card-title {
     opacity: 1;
   }
-  .section-works{
-
-  }
-  
   
   /* Card SERVICES
       ============================= */
@@ -477,9 +469,6 @@
     text-decoration: none;
     transition-duration: 0.3s;
     transition-property: color, background-color;
-  }
-  .section-services{
-
   }
   
   /* Card TESTIMONIAL
@@ -513,7 +502,4 @@
     color: #efeded;
     font-size: 10rem;
     z-index: -1;
-  }
-  .section-testimonial{
-
   }
