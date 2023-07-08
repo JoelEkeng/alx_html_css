@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    background: scroll;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+article,aside{
+    overflow-y: auto;
+}
+article{
+    flex: 2;
+    margin-top: 10;
+    margin-bottom: 10;
+}
+aside{
+    flex: 1;
+}
+header, main, footer {
+    box-sizing: border-box;
+    height: 100%;
+    padding: 20px; 
+  }
+.logo{
+    font-size: 24pt;
+    color: black;
+}
