@@ -6,7 +6,7 @@ header{
     background-image: url(unnamed.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: center;
     color: #f2f2f2;
 
 }
@@ -28,6 +28,9 @@ header{
 .FAQ{
     display: inline-flex;
     gap: 5%;
+}
+#video{
+    display: inline-flex;
 }
 footer{
     background-color: #071629;
