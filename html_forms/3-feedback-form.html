@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>HTML FORMS</title>
+    </head>
+    <body>
+        <h1>Feedback Forms</h1>
+        <form>
+                <div>
+                    <label for="name">Name:</label>
+                    <input id="name" type="text" name="name" required>
+                </div>
+                <div>
+                    <label for="email">Email address:</label>
+                    <input id="email" type="email" name="email" required>
+                </div>
+                <div>
+                    <label for="Checkboxes">Feedback Options:</label>
+                    <input type="checkbox" name="checkbox[]" id="excellent" value="excellent"> 
+                    <label for="excellent">Excellent</label>
+                    <input type="checkbox" name="checkbox[]" id="good" value="good"> 
+                    <label for="good">Good</label>
+                    <input type="checkbox" name="checkbox[]" id="average" value="average"> 
+                    <label for="average">Average</label>
+                    <input type="checkbox" name="checkbox[]" id="poor" value="poor"> 
+                    <label for="poor">Poor</label>
+
+                    <br><label for="file">Upload a File:</label>
+                    <input type="file" id="file" value="file">
+                </div>
+                <br><button type="submit">Submit</button>
+        </form>
+    </body>
+</html>
